@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: estimador - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\PROPIE~1\CONFIG~1\Temp\RSP7.tmp" with contents
+[
+/check:bounds /compile_only /debug:full /include:"Debug/" /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"C:\Documents and Settings\Propietario\Escritorio\ESTIMADOR (version 3) modulo hecramientas\estimador.f90"
+]
+Creating temporary file "C:\DOCUME~1\PROPIE~1\CONFIG~1\Temp\RSP8.tmp" with contents
+[
+kernel32.lib /nologo /subsystem:console /incremental:no /pdb:"Debug/estimador.pdb" /debug /machine:I386 /out:"Debug/estimador.exe" /pdbtype:sept 
+".\Debug\dasum.obj"
+".\Debug\daxpy.obj"
+".\Debug\ddot.obj"
+".\Debug\dgefa.obj"
+".\Debug\dgesl.obj"
+".\Debug\dscal.obj"
+".\Debug\idamax.obj"
+".\Debug\incoef3.obj"
+".\Debug\lectura.obj"
+".\Debug\rayisoconv3d.obj"
+".\Debug\fun_jac.obj"
+".\Debug\evalf.obj"
+".\Debug\evalg.obj"
+".\Debug\proj.obj"
+".\Debug\spg.obj"
+".\Debug\herramientas.obj"
+".\Debug\estimador.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\PROPIE~1\CONFIG~1\Temp\RSP8.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+C:\Documents and Settings\Propietario\Escritorio\ESTIMADOR (version 3) modulo hecramientas\estimador.f90
+Linking...
+
+
+
+<h3>Results</h3>
+estimador.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
